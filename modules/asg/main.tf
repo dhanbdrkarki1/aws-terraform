@@ -1,6 +1,6 @@
 # Lunch template Config
 resource "aws_launch_template" "lunch-template1" {
-  name = "ubuntu-test-template1"
+  name = "ubuntu-template5"
   image_id = var.image_id
   instance_type = var.instance_type
   key_name = var.key_name

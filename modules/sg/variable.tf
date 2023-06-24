@@ -17,7 +17,7 @@ variable "lb_sg_name" {
 }
 
 variable "efs_sg_name" {
-    # type = string
+    type = string
     default = "EFS Mount Target"
     description = "Name of EFS Security Group"
 }

@@ -15,6 +15,6 @@ output "alb_security_groups_id" {
     value = aws_security_group.load_balancer_sg.id
 }
 
-output "efs_security_groups_id" {
-    value = aws_security_group.efs_sg.id
-}
+# output "efs_security_groups_id" {
+#     value = aws_security_group.efs_sg.id
+# }
